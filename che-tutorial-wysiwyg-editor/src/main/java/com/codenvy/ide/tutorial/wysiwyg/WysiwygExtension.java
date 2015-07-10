@@ -29,7 +29,7 @@ import static org.eclipse.che.ide.api.parts.PartStackType.EDITING;
 @Extension(title = "WYSIWYG Editor Extension", version = "1.0")
 public class WysiwygExtension {
     public interface WysiwygResource extends ClientBundle {
-        @Source("org/eclipse/che/ide/tutorial/wysiwyg/html.svg")
+        @Source("com/codenvy/ide/tutorial/wysiwyg/html.svg")
         SVGResource htmlFile();
     }
 
